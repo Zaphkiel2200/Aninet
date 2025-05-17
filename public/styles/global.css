@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #FF0808;
+    --background-color: #111111;
+    --secondary-bg: #222222;
+    --text-color: #FFFFFF;
+    --text-secondary: #A4A4A4;
+    --card-bg: #1E1E1E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+a, button, .anime-card {
+    transition: all 0.3s ease;
+}
+
+.anime-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 8, 8, 0.2);
+}
