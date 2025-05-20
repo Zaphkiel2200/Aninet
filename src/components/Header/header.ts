@@ -18,7 +18,6 @@ class HeaderComponent extends HTMLElement {
           flex-direction: row;
           align-items: center;
           justify-content: space-between;
-          padding: 20px 150px;
           background: linear-gradient(#111111, transparent);
           position: fixed;
           top: 0;

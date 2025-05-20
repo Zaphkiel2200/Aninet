@@ -1,7 +1,7 @@
 {
   "name": "aninet2",
   "version": "1.0.0",
-  "description": "",
+  "description": "ANINET2/\r ├── node_modules/\r ├── public/\r │   ├── assets/\r │   │   ├── images/\r │   │   └── styles/\r │   ├── data/\r │   │   ├── commentList.json\r │   │   ├── postList.json\r │   │   └── profileData.json\r │   └── index.html\r ├── src/\r │   ├── components/\r │   │   ├── Header/\r │   │   │   ├── Header.ts\r │   │   │   └── Header.css\r │   │   ├── Footer/\r │   │   │   ├── Footer.ts\r │   │   │   └── Footer.css\r │   │   ├── PostCreator/\r │   │   │   ├── PostCreator.ts\r │   │   │   └── PostCreator.css\r │   │   ├── PostList/\r │   │   │   ├── PostList.ts\r │   │   │   └── PostList.css\r │   │   ├── Profile/\r │   │   │   ├── Profile.ts\r │   │   │   └── Profile.css\r │   │   └── Watch/\r │   │       ├── Watch.ts\r │   │       └── Watch.css\r │   ├── flux/\r │   │   ├── actions/\r │   │   │   └── appActions.ts\r │   │   ├── reducers/\r │   │   │   └── appReducer.ts\r │   │   ├── store/\r │   │   │   └── store.ts\r │   │   └── types/\r │   │       └── types.ts\r │   ├── services/\r │   │   ├── anime-service.ts\r │   │   └── post-service.ts\r │   ├── types/\r │   │   └── types.ts\r │   ├── utils/\r │   │   └── helpers.ts\r │   ├── root/\r │   │   └── App.ts\r │   └── index.ts\r ├── .gitignore\r ├── eslint.config.mjs\r ├── package-lock.json\r ├── package.json\r ├── README.md\r ├── tsconfig.json\r └── webpack.config.js",
   "main": "index.js",
   "dependencies": {
     "acorn": "^8.14.1",
